@@ -1,5 +1,4 @@
-{
-<<<<<<< HEAD
+
   "name": "music-player",
   "version": "1.0.0",
   "description": "A web-based music player application",
@@ -43,11 +42,10 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-<<<<<<< HEAD
-=======
+
   },
   "engines": {
     "node": ">=14.0.0"
->>>>>>> bf240b4 (app.js)
+
   }
 }
