@@ -1,5 +1,6 @@
 services:
   - type: web
+<<<<<<< HEAD
     name: music-player
     env: node
     buildCommand: npm install
@@ -7,3 +8,16 @@ services:
     envVars:
       - key: PORT
         value: 10000
+=======
+    name: music-web-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: music-data
+      mountPath: /data
+      sizeGB: 1
+>>>>>>> bf240b4 (app.js)
